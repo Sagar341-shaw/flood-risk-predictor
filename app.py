@@ -3,8 +3,8 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model  = joblib.load('models/flood_model.pkl')
-scaler = joblib.load('models/scaler.pkl')
+model  = joblib.load('flood_model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 st.title("Flood Risk Predictor")
 st.write("Adjust the sliders and click Predict!")
